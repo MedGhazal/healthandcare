@@ -15,6 +15,7 @@ html, body {
 	line-height: 1.6;
 	overflow-x: hidden;
 	position: relative;
+	background-color: rgba(77, 114, 82, .1);
 }
 ul { list-style-type: none; }
 a {
@@ -45,7 +46,7 @@ nav {
 	float: right;
 	padding: 4vh;
 }
-nav ul { display: flex; background-color: rgba(0, 0, 0, .1); border-radius: 20px; }
+nav ul { display: flex; background-color: rgba(77, 214, 122, .2); border-radius: 20px; }
 nav ul li{
 	display: inline;
 	padding: 1vh;
@@ -56,8 +57,8 @@ nav a {
 	transition: all .5s ease-in-out;
 }
 nav a:hover { 
-	border-bottom: 2px #111 solid; 
-	background-color: gray;
+	border-bottom: 2px rgba(77, 214, 122, .6) solid; 
+	background-color: rgba(77, 214, 122, .4);
 	border-radius: 40px 10px;
 }
 .about {
@@ -102,19 +103,20 @@ nav a:hover {
 }
 .box:hover { flex: 1 1 50%; }
 .box:hover > img {
-  width: 100%;
+	width: 100%;
 }
 .products {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .products .product {
 	align-items: center;
 	text-align: center;
 	padding: 1.5rem;
 	margin: 2rem;
-	background-color: gray;
+	background-color: rgba(77, 214, 122, .2);
 	border-radius: 20px 10px;
 }
 .product h3 {
@@ -125,13 +127,14 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .services .service {
 	align-items: center;
 	text-align: center;
 	padding: 1.5rem;
 	margin: 2rem;
-	background-color: gray;
+	background-color: rgba(77, 214, 122, .2);
 	border-radius: 20px 10px;
 }
 .service p {
@@ -153,7 +156,7 @@ nav a:hover {
 }
 .form {
 	padding: 15px;
-	background-color: gray;
+	background-color: rgba(77, 214, 122, .2);
 	border-radius: 20px 10px;
 }
 .form h1 { font-size: 1.6rem; font: italic; padding: 20px; }
@@ -163,6 +166,7 @@ nav a:hover {
 	border-radius: 20px 10px;
         width: 100%;
 	padding: 1.2rem;
+	margin: .2rem;
 	font-size: 1.1rem;
 }
 .form textarea {
@@ -173,6 +177,7 @@ nav a:hover {
 	border-radius: 20px 10px;
 	width: 100%;
 	padding: 1.2rem;
+	margin: .2rem;
 }	
 .form input:focus { outline: none; }
 .form textarea:focus { outline: none; }
@@ -180,14 +185,14 @@ nav a:hover {
 	padding: 10px; 
 	margin: 10px;
 	font-size: 1.2rem;
-	background-color: gray;
+	background-color: rgba(77, 214, 122, .4);
 	border: none;
 	border-radius: 20px 10px;
 	transition: all .5s ease-in-out;
 }
 .form .button:hover { 
-	border-bottom: 2px #111 solid; 
-	background-color: blue;
+	border-bottom: 2px rgba(77, 214, 122, .8) solid; 
+	background-color: rgba(77, 214, 122, .6);
 	border-radius: 40px 10px;
 }
 footer {
