@@ -147,6 +147,7 @@ nav a:hover {
 .showcase {
 	padding: 10%;
 	align-items: center;
+	text-align: center;
 	display: grid;
 	grid-template-columns: 1.4fr 1fr;
 }
