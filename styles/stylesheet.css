@@ -67,7 +67,7 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: 35% 65%;
 	margin: .5%;
-	height: 80vh;
+	height: 100vh;
 	margin-bottom: 40px;
 	width: 100%;
 }
@@ -204,4 +204,50 @@ footer {
 	padding: 15px;
 	text-align: center;
 	width: 100%;
+}
+@media(max-width: 1200px) {
+	header {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	nav ul li {
+		font-size: .9rem;
+	}
+	.logo {
+		width: 35%;
+	}
+	.about {
+		margin-top: 10vh;
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 120vh;
+	}
+	.products {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.services {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media(max-width: 800px) {
+	.showcase {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}	
+@media(max-width: 600px) {
+	nav ul {
+		font-size: .6rem;
+	}
+	.products {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.services {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
